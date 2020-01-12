@@ -1,2 +1,8 @@
-# restaurant_menu_react
-A restaurant menu made with react
+### START APP
+
+- npm start
+
+### INSTALL REACT-ROUTER PACKAGE
+
+- sudo npm add react-router-dom
+

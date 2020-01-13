@@ -8,7 +8,7 @@ class Main extends Component {
       comensales: 0
     };
   }
-
+//recuperamos el número de comensales del input
   consultar = e => {
     this.setState({
       comensales: event.target.value
@@ -28,9 +28,10 @@ class Main extends Component {
         <h2>12€</h2>
 
         <div id="comensales">
-          <label>
+          <label id="info">
             Indica el número de comensales para consultar disponibilidad
           </label>
+          <p id="validaciones">(Validaciones: campo vacío, 0, no más de 100 comensales ni números negativos)</p>
           <input type="number" min="1" onChange={this.consultar}></input>
           {/* <p>{this.state.comensales}</p> */}
         <Link to={"/capacidad/"+this.state.comensales}>

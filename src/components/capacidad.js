@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+//importamos la librería redirect
 import {Redirect} from "react-router-dom";
 
 class Capacidad extends Component {

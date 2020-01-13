@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+//importamos la librería Link
 import { Link } from "react-router-dom";
 
 class Info extends Component {
@@ -6,8 +7,6 @@ class Info extends Component {
     super(props);
     this.state = {};
   }
-
-
 
   render() {
 

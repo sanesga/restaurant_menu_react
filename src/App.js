@@ -32,12 +32,15 @@ class App extends Component {
             <li>
               <Link to="/bebidas">Bebidas</Link>
             </li>
+            <li>
+              <Link to="/postres/naranjas/fresas">Postres</Link>
+            </li>
           </ul>
 
           {/* rutas */}
           {/* todas las rutas utilizadas en la aplicación deben estar aquí declaradas */}
           <Switch>
-            {/* cargamos el componente menu del día al cargar la página */}
+            {/* cargamos el componente menu del día por defecto al cargar la página */}
             <Route exact path="/" component={Main} />
             <Route exact path="/main" component={Main} />
             <Route exact path="/entrantes" component={Entrantes} />
@@ -49,6 +52,7 @@ class App extends Component {
               path="/postres/:tipoFruta1/:tipoFruta2"
               component={Postres}
             />
+            {/* le pasamos el número de comensales a través del input, se llama al componente capacidad que hace las validaciones y con una redirección a info, nos dice si los comensales caben o no */}
             <Route exact path="/capacidad/:comensales" component={Capacidad} />
             <Route exact path="/info/:message" component={Info} />
           </Switch>

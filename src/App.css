@@ -4,8 +4,8 @@
   padding: 0;
   text-decoration: none;
 }
-#menu{
-  margin-bottom:100px;
+#menu {
+  margin-bottom: 100px;
 }
 /* estilo del menú */
 #menu li {
@@ -25,14 +25,14 @@ h1,
 h2 {
   text-align: center;
 }
-h2{
-  margin-bottom:100px;
+h2 {
+  margin-bottom: 100px;
 }
 .atras {
   text-align: center;
   color: green;
 }
-.volver{
+.volver {
   margin-top: 40px;
   display: block;
   margin: 0 auto;
@@ -44,20 +44,22 @@ span {
   font-weight: bold;
 }
 #comensales {
-  font-weight: bold;
   text-align: center;
+}
+#info {
+  font-weight: bold;
 }
 input[type="number"] {
   margin-top: 20px;
   height: 25px;
   width: 50px;
 }
-label {
-  margin-right: 20px;
-}
 button {
   margin-left: 20px;
   height: 30px;
   width: 80px;
+  font-size: 14px;
+}
+#validaciones {
   font-size: 14px;
 }
